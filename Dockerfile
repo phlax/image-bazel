@@ -58,3 +58,5 @@ RUN echo "deb http://deb.debian.org/debian bullseye-backports main contrib non-f
 
 WORKDIR /src/workspace
 USER $USERNAME
+
+COPY ./run.sh /run.sh
