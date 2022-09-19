@@ -15,6 +15,7 @@ shift
 
 # ssh-keyscan -t rsa "$REPO_URI" >> /root/.ssh/known_hosts
 
+echo "Cloning repo: ${REPO} ..."
 git clone "$REPO" cloned
 cd "cloned/$SUBDIR"
 
